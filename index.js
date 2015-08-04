@@ -3,7 +3,7 @@ var app = express();
 var solr = require("solr");
 
 var client = solr.createClient({
-  host: 'trynutch.cloudapp.net',
+  host: 'localhost',
   port: '8983',
   core: '/collection1', // if defined, should begin with a slash
   path: '/solr' // should also begin with a slash
